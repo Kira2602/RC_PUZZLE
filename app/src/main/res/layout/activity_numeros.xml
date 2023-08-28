@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgjuego"
+    tools:context=".numeros">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIEMPO:"
+            android:textSize="30dp"
+
+            android:textColor="#FBF6F6"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:id="@+id/tvTiempo"
+            android:textSize="30dp"
+            android:textColor="#F6F1F1"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puzzle Números"
+            android:textSize="30dp"
+            android:textColor="#FBF6F6"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="70dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#9D8ABF"
+                android:text="1"
+                android:textColor="#111111"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#709BBD"
+                android:text="2"
+                android:textColor="#111111"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#95B66F"
+                android:text="3"
+                android:textColor="#111111"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#66ACA5"
+                android:text="4"
+                android:textColor="#111111"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#B1A963"
+                android:text="5"
+                android:textColor="#111111"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#954FA1"
+                android:text="6"
+                android:textColor="#111111"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#A88450"
+                android:text="7"
+                android:textColor="#111111"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#456278"
+                android:text="8"
+                android:textColor="#111111"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:id="@+id/btx"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#202543"
+                android:text="X"
+                android:textColor="#EFEBEB"
+                android:textSize="30dp"
+                app:backgroundTint="@null"
+                android:layout_margin="2dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="90dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btIniciar"
+            android:layout_width="130dp"
+            android:layout_height="48dp"
+            android:background="#D2111111"
+            android:text="Iniciar"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btrestart"
+            android:layout_width="130dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="40dp"
+            android:background="#A3111111"
+            android:text="Reiniciar"
+            android:layout_marginLeft="50dp"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsegundo"
+    tools:context=".MainActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Bienvenid@:"
+            android:textColor="#F3F1F1"
+            android:textSize="35dp"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="#F3F1F1"
+            android:textSize="35dp"
+
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btnumeros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#1A214C"
+            android:text="Numeros"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/btimagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#1A214C"
+            android:text="Imagen"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/rompecabezas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_margin="50dp"
+        android:text="RC PUZZLE"
+        android:textColor="#F3F1F1"
+        android:textSize="40dp" />
+
+</RelativeLayout>
